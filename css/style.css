@@ -1,0 +1,23 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #333;
+    background-color: #fafafa;
+    display: inline-block;
+    vertical-align: top;
+    overflow-y: auto;
+    
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+}
+
+.box h2 {
+    margin-top: 0px;
+}
