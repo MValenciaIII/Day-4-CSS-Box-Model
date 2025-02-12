@@ -1,0 +1,20 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.boxOne {
+    width: 250px;
+    padding: 35px;
+    margin: 10px;
+    border: 2px solid orangered;
+    display: inline-block;
+}
+
+.boxTwo {
+    width: 150px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(0, 255, 94);
+    display: inline-block;
+}

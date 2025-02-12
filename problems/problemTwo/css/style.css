@@ -1,0 +1,13 @@
+.boxOne {
+    width: 200px;
+    border: 4px solid gold;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.boxTwo {
+    width: 200px;
+    border: 4px solid gold;
+    padding: 10px;
+    box-sizing: border-box;
+}
